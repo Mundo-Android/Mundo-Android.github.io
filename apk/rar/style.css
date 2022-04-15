@@ -1,0 +1,121 @@
+@font-face {
+  font-family: DarkMono;
+  src: url("https://apk-ganso.github.io/fonts/DankMono-Regular.otf") format("opentype");
+}
+html {
+  width: 100%;
+  height: 100%;
+  background-color: #474747;
+  
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+body {
+  width: 90%;
+  max-width: 500px;
+  min-height: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #FFFFFF;
+  
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: column;
+  align-content: flex-start;
+}
+.header {
+  width: 100%;
+  min-height: 60px;
+  max-height: 60px;
+  border-bottom: 2px solid #000000;
+  box-shadow: 0px 1px 3px #484848;
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.article {
+  width: 100%;
+  text-align: center;
+  overflow: auto;
+  
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.footer {
+  width: 100%;
+  height: 50px;
+  background-color: #7D7E83;
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+} 
+.title {
+  font-size: 25px;
+  margin: 0px;
+}
+.ic-rar {
+  width: 170px;
+  height: 170px;
+  margin-top: 10px;
+}
+.name-ic-rar {
+  margin: 0px;
+  font-size: 25px;
+}
+.href-button-download {
+  text-decoration: none;
+  margin: 20px 0 30px 0;
+  box-shadow: 3px 3px 10px #696969;
+}
+.button-download {
+  padding: 10px 30px 10px 30px;
+  font-size: 28px;
+  color: #000000;
+  border: 5px solid #000000;
+}
+.button-download:hover {
+  border-color: #1C597D;
+  color: #1C597D;
+  background-color: #1C597D2B;
+}
+.button-googleplay {
+  width: 200px;
+}
+.href-button-googleplay {
+  text-decoration: none;
+}
+
+
+.container-det {
+  width: 200px;
+  padding: 15px;
+  margin-top: 20px;
+  text-align: start;
+  background-color: #000000;
+  color: #FFFFFF;
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+.txt {
+  font-size: 16px;
+  margin-bottom: 0;
+  font-family: DarkMono;
+}
+.txt1 {
+  margin-top: 0px;
+}
